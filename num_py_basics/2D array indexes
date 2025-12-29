@@ -1,0 +1,11 @@
+import numpy as np
+temperatures = np.array([
+   [25, 28, 26],  # Berlin
+   [30, 32, 31],  # Madrid
+   [22, 21, 23]   # New York
+])
+
+print(temperatures[[0, 0, 1], [0, 1, 1]])
+print(temperatures[0, 0])
+print(temperatures[0, 1])
+print(temperatures[1, 1])
